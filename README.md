@@ -9,8 +9,8 @@
 2. Далее создайте папку */bin/ddos_detector* с помощью команды:</br></br>
 ***mkdir /bin/ddos_detector***</br>
 
-3. Переместите архив с модулем в папку, подключившись к шлюзу по SFTP, и распакуйте архив:</br></br>
-***tar -xvf package_ddos_detector.tar.gz***</br>
+3. Переместите архив с модулем в папку (скачать его можно [по этой ссылке](https://github.com/sagittarius-H/DdosDetectorForCheckPoint/releases/download/v1.0.0/package_ddos_detector.tar)), подключившись к шлюзу по SFTP, и распакуйте архив:</br></br>
+***tar -xvf package_ddos_detector.tar***</br>
 
 4. Создайте нового пользователя Gaia, который сможет выполнять cron задания, но не будет иметь пароля и возможности подключиться по Web или SSH. Для этого выполните команды на шлюзе из режима Clish:</br></br>
 ***add user jobuser uid 0 homedir /home/jobuser***</br>
