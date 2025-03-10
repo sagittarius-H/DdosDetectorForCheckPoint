@@ -9,7 +9,7 @@
 2. Далее создайте папку */bin/ddos_detector* с помощью команды:</br></br>
 **`mkdir /bin/ddos_detector`**</br>
 
-4. Переместите архив с модулем в папку (скачать его можно [по этой ссылке](https://github.com/sagittarius-H/DdosDetectorForCheckPoint/releases/download/v1.0.2/package_ddos_detector.tar)), подключившись к шлюзу по SFTP, и распакуйте архив:</br></br>
+4. Переместите архив с модулем в папку (скачать его можно [по этой ссылке](https://github.com/sagittarius-H/DdosDetectorForCheckPoint/releases/download/v1.0.3/package_ddos_detector.tar)), подключившись к шлюзу по SFTP, и распакуйте архив:</br></br>
 **`tar -xvf package_ddos_detector.tar`**</br>
 
 5. Добавьте разрешение на выполнение исполняемых файлов командой:</br></br>
